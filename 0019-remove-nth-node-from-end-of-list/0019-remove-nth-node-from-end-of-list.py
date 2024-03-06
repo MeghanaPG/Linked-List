@@ -5,7 +5,7 @@
 #         self.next = next
 class Solution:
     def removeNthFromEnd(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
-        # Two Pointers 
+         # Two Pointers 
         # Time Complexity: O(n)
         dummy = ListNode(0, head)
         left = dummy 
