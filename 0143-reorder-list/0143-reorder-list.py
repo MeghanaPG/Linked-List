@@ -15,6 +15,7 @@ class Solution:
             slow = slow.next 
             fast = fast.next.next 
         
+        # Now we have the beginning of the second half of the list 
         second = slow.next 
         prev = slow.next = None 
        
