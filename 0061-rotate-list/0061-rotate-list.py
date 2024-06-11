@@ -5,7 +5,7 @@
 #         self.next = next
 class Solution:
     def rotateRight(self, head: Optional[ListNode], k: int) -> Optional[ListNode]:
-        # time complexity: 
+        # time complexity: O(n)
         # count backwards, (length - k - 1)
         if not head:
             return head 
