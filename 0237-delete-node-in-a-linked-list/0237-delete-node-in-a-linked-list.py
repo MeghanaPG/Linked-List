@@ -11,5 +11,6 @@ class Solution:
         :rtype: void Do not return anything, modify node in-place instead.
         """
         # Time Complexity: O(n)
+        # overwrite the data of next node on current node.
         node.val = node.next.val
         node.next = node.next.next
