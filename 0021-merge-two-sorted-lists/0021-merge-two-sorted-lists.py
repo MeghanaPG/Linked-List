@@ -16,9 +16,10 @@ class Solution:
                 tail.next = l2
                 l2 = l2.next 
             tail = tail.next 
+
         
         if l1:
-            tail.next = l1
+            tail.next = l1 
         if l2:
-            tail.next = l2 
-        return dummy.next
+            tail.next = l2
+        return dummy.next 
